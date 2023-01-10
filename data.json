@@ -1,0 +1,131 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Sinh Năm 1972 - Khát Vọng Sống (Tự Truyện Nguyễn Cảnh Bình) ",
+      "image": "/assets/images/products/kvs1972/kvs1972.jpg",
+      "author": "Nguyễn Cảnh Bình",
+      "price": "169000",
+      "type": "Văn học",
+      "discount": 20
+    },
+    {
+      "id": 2,
+      "title": "Thám Tử Lừng Danh Conan Tuyển Tập Đặc Biệt - Vs. Tổ Chức Áo Đen Part.3",
+      "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
+      "author": "Gosho Aoyama",
+      "price": 75000,
+      "type": "Sách thiếu nhi",
+      "discount": 20
+    },
+    {
+      "id": 3,
+      "title": "Thám Tử Lừng Danh Conan Tuyển Tập Đặc Biệt - Vs. Tổ Chức Áo Đen Part.3",
+      "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
+      "author": "Gosho Aoyama",
+      "price": 75000,
+      "type": "Sách thiếu nhi",
+      "discount": 20
+    },
+    {
+      "id": 4,
+      "title": "Thám Tử Lừng Danh Conan Tuyển Tập Đặc Biệt - Vs. Tổ Chức Áo Đen Part.3",
+      "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
+      "author": "Gosho Aoyama",
+      "price": 75000,
+      "type": "Sách thiếu nhi",
+      "discount": 20
+    },
+    {
+      "id": 5,
+      "title": "Thám Tử Lừng Danh Conan Tuyển Tập Đặc Biệt - Vs. Tổ Chức Áo Đen Part.3",
+      "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
+      "author": "Gosho Aoyama",
+      "price": 75000,
+      "type": "Sách thiếu nhi",
+      "discount": 20
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "title": "Văn học"
+    },
+    {
+      "id": 2,
+      "title": "Kinh tế"
+    },
+    {
+      "id": 3,
+      "title": "Tâm lý - Kỹ năng sống"
+    },
+    {
+      "id": 4,
+      "title": "Sách thiếu nhi"
+    },
+    {
+      "id": 5,
+      "title": "Sách giáo khoa"
+    },
+    {
+      "id": 6,
+      "title": "Tiểu sử - Hồi ký"
+    },
+    {
+      "id": 7,
+      "title": "Văn phòng phẩm"
+    }
+  ],
+  "slides": [
+    {
+      "image": "/assets/images/slider image/Megasale_Mainbanner_Slide_840x320_1.jpg"
+    },
+    {
+      "image": "/assets/images/slider image/Trang_Manga-Comic_Mainbanner_T10_Slide_840x320.jpg"
+    },
+    {
+      "image": "/assets/images/slider image/VPP_Main_banner_T10_840x320.jpg"
+    }
+  ],
+  "users": [
+    {
+      "useName": "Võ Trường Dũng",
+      "email": "votruongdung4@gmail.com",
+      "password": "123",
+      "phoneNo": "0905109563",
+      "id": 1
+    }
+  ],
+  "orders": [
+    {
+      "userId": "1",
+      "paymentMethod": "cash",
+      "cardOwner": null,
+      "cardNumber": null,
+      "address": "tfsfsfs",
+      "totalPrice": 244000,
+      "status": false,
+      "id": 1
+    }
+  ],
+  "orderDetails": [
+    {
+      "arrayProducts": [
+        {
+          "id": 1,
+          "price": 169000,
+          "image": "/assets/images/products/kvs1972/kvs1972.jpg",
+          "qty": 1
+        },
+        {
+          "id": 2,
+          "price": 75000,
+          "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
+          "qty": 1
+        }
+      ],
+      "order_id": 1,
+      "id": 1
+    }
+  ]
+}
