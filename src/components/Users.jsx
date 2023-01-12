@@ -6,6 +6,9 @@ import {
   SimpleForm,
   EditButton,
   TextInput,
+  EmailField,
+  NumberField,
+  PasswordInput,
 } from "react-admin";
 import React from "react";
 
@@ -14,8 +17,8 @@ const Users = (props) => (
     <Datagrid>
       <TextField source="id" />
       <TextField source="useName" />
-      <TextField source="email" />
-      <TextField source="phoneNo" />
+      <EmailField source="email" />
+      <NumberField source="phoneNo" />
       <EditButton basepath="/users" />
     </Datagrid>
   </List>
@@ -26,7 +29,7 @@ export const editUsers = (props) => (
       <TextInput source="useName" />
       <TextInput source="email" />
       <TextInput source="phoneNo" />
-      <TextInput source="password" />
+      <PasswordInput source="password" />
     </SimpleForm>
   </Edit>
 );

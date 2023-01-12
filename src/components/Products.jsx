@@ -7,15 +7,21 @@ import {
   EditButton,
   TextInput,
   Create,
+  NumberField,
+  NumberInput,
+  ReferenceInput,
+  SelectInput,
+  AutocompleteInput,
 } from "react-admin";
 import React from "react";
 
 const Products = (props) => (
   <List {...props}>
     <Datagrid>
+      <TextField source="id" />
       <TextField source="title" />
       <TextField source="author" />
-      <TextField source="price" />
+      <NumberField source="price" />
       <TextField source="type" />
       <EditButton basepath="/products" />
     </Datagrid>
@@ -27,19 +33,23 @@ export const editProducts = (props) => (
       <TextInput source="title" />
       <TextInput source="image" />
       <TextInput source="author" />
-      <TextInput source="price" />
-      <TextInput source="type" />
+      <NumberInput source="price" />
+      <ReferenceInput source="type_id" reference="categories">
+        <AutocompleteInput optionText="title"/>
+      </ReferenceInput>
     </SimpleForm>
   </Edit>
 );
 export const createProducts = (props) => (
   <Create {...props}>
     <SimpleForm>
-      <TextInput source="title" />
+    <TextInput source="title" />
       <TextInput source="image" />
       <TextInput source="author" />
-      <TextInput source="price" />
-      <TextInput source="type" />
+      <NumberInput source="price" />
+      <ReferenceInput source="type" reference="categories" >
+        <AutocompleteInput optionText="title"/>
+      </ReferenceInput>
     </SimpleForm>
   </Create>
 );

@@ -7,6 +7,7 @@
       "author": "Nguyễn Cảnh Bình",
       "price": "169000",
       "type": "Văn học",
+      "type_id": 3,
       "discount": 20
     },
     {
@@ -99,33 +100,52 @@
   "orders": [
     {
       "userId": "1",
-      "paymentMethod": "cash",
-      "cardOwner": null,
-      "cardNumber": null,
-      "address": "tfsfsfs",
+      "paymentMethod": "Tiền mặt",
+      "cardOwner": "null",
+      "cardNumber": "null",
+      "address": "03 Cầm Bá Thước",
+      "totalPrice": 75000,
+      "status": true,
+      "date": "12-1-2023",
+      "time": "14:56:41",
+      "id": 1,
+      "arrayProducts": [
+        {
+          "id": 2,
+          "price": 75000,
+          "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
+          "qty": 1,
+          "title": "Thám Tử Lừng Danh Conan Tuyển Tập Đặc Biệt - Vs. Tổ Chức Áo Đen Part.3"
+        }
+      ]
+    },
+    {
+      "userId": "1",
+      "paymentMethod": "vnpay",
+      "cardOwner": "",
+      "cardNumber": "",
+      "address": "dadad",
       "totalPrice": 244000,
       "status": false,
-      "id": 1
-    }
-  ],
-  "orderDetails": [
-    {
+      "date": "12-1-2023",
+      "time": "15:10:8",
       "arrayProducts": [
         {
           "id": 1,
           "price": 169000,
           "image": "/assets/images/products/kvs1972/kvs1972.jpg",
-          "qty": 1
+          "qty": 1,
+          "title": "Sinh Năm 1972 - Khát Vọng Sống (Tự Truyện Nguyễn Cảnh Bình) "
         },
         {
           "id": 2,
           "price": 75000,
           "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
-          "qty": 1
+          "qty": 1,
+          "title": "Thám Tử Lừng Danh Conan Tuyển Tập Đặc Biệt - Vs. Tổ Chức Áo Đen Part.3"
         }
       ],
-      "order_id": 1,
-      "id": 1
+      "id": 2
     }
   ]
 }

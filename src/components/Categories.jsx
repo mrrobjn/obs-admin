@@ -13,6 +13,7 @@ import React from "react";
 const Categories = (props) => (
   <List {...props}>
     <Datagrid>
+      <TextField source="id" />
       <TextField source="title" />
       <EditButton basepath="/categories" />
     </Datagrid>
