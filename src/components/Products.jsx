@@ -22,7 +22,7 @@ const Products = (props) => (
       <TextField source="title" />
       <TextField source="author" />
       <NumberField source="price" />
-      <TextField source="type" />
+      <TextField source="category_id" />
       <EditButton basepath="/products" />
     </Datagrid>
   </List>
@@ -34,8 +34,8 @@ export const editProducts = (props) => (
       <TextInput source="image" />
       <TextInput source="author" />
       <NumberInput source="price" />
-      <ReferenceInput source="type_id" reference="categories">
-        <AutocompleteInput optionText="title"/>
+      <ReferenceInput source="category_id" reference="categories">
+        <SelectInput optionText="title"/>
       </ReferenceInput>
     </SimpleForm>
   </Edit>
@@ -47,8 +47,8 @@ export const createProducts = (props) => (
       <TextInput source="image" />
       <TextInput source="author" />
       <NumberInput source="price" />
-      <ReferenceInput source="type" reference="categories" >
-        <AutocompleteInput optionText="title"/>
+      <ReferenceInput source="category_id" reference="categories" >
+        <SelectInput optionText="title"/>
       </ReferenceInput>
     </SimpleForm>
   </Create>
