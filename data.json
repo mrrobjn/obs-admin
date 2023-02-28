@@ -44,6 +44,15 @@
       "price": 75000,
       "discount": 20,
       "category_id": 4
+    },
+    {
+      "id": 5,
+      "title": "Thám Tử Lừng Danh Conan Tuyển Tập Đặc Biệt - Vs. Tổ Chức Áo Đen Part.3",
+      "image": "/assets/images/products/Conan/tham-tu-lung-danh-conan-vs-to-chuc-ao-den-part-3.jpg",
+      "author": "Gosho Aoyama",
+      "price": 75000,
+      "discount": 20,
+      "category_id": 4
     }
   ],
   "categories": [
